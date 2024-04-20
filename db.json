@@ -1,0 +1,3380 @@
+[
+  {
+    "ref": "36a95135-05bb-416a-af56-3fef1d823e9e",
+    "keyword": "f3e069ee5ed84891a8974126325f43d9",
+    "answer": "Hola",
+    "options": {},
+    "from": "5212226691915",
+    "refSerialize": "c22e4066d61d81721def9b25d8a397e8"
+  },
+  {
+    "ref": "ans_c416bff5-612a-4df2-9917-4538cf02ac05",
+    "keyword": "key_8ba7d184-b9bd-40ef-8c3d-bb2e1eb0831d",
+    "answer": "🙌 Hola bienvenido al chatBot lobOs",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "66d1c8c44b18113e32fee39a1753c22c",
+    "from": "5212226691915"
+  },
+  {
+    "ref": "ans_b5cc858c-111e-40e5-a1d8-49e06330f622",
+    "keyword": "ans_c416bff5-612a-4df2-9917-4538cf02ac05",
+    "answer": "Te comparto lo que puedes hacer hoy: \n➡ 1.-Ver eventos\n➡ 2.-Agregar evento\n➡ 3.-Información de mis eventos\n➡ 4.-¿Quieres iniciar tus primeros pasos conmigo? 👉👈",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [
+        {
+          "ref": "key_6ad7ad03-001f-44c1-9320-2c43869eb03d",
+          "keyword": [
+            "1.-",
+            "1.",
+            "1",
+            "ver tareas",
+            "tareas"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "b76412a822bea99fe49d83d1ada25f52"
+        },
+        {
+          "ref": "ans_03cf7492-59a7-420c-9c58-64816e8fc9ba",
+          "keyword": "key_6ad7ad03-001f-44c1-9320-2c43869eb03d",
+          "answer": "➡ 1.-Ver eventos completados\n➡ 2.-Ver eventos en curso\n➡ 3.-Ver eventos sin empezar\n➡ 4.-Ver todos los eventos",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [
+              {
+                "ref": "key_25e5449f-4d3e-450b-b686-5830c92f0207",
+                "keyword": [
+                  "1.-",
+                  "1.",
+                  "1",
+                  "listas"
+                ],
+                "options": {
+                  "sensitive": false,
+                  "regex": false
+                },
+                "refSerialize": "c374d4c5f46754641fad1633a58bdaa9"
+              },
+              {
+                "ref": "ans_ff1fe5d2-aff2-4142-b1c5-28479456c95e",
+                "keyword": "key_25e5449f-4d3e-450b-b686-5830c92f0207",
+                "answer": "__call_action__",
+                "options": {
+                  "media": null,
+                  "buttons": [],
+                  "capture": false,
+                  "child": null,
+                  "delay": 0,
+                  "idle": null,
+                  "ref": null,
+                  "nested": [],
+                  "keyword": {},
+                  "callback": true
+                },
+                "refSerialize": "23e89cbc94d8ee4dcc1a5cdbc046ecc7"
+              },
+              {
+                "ref": "key_73a88d19-845e-405a-98d4-565300a147f3",
+                "keyword": [
+                  "2.-",
+                  "2.",
+                  "2",
+                  "curso"
+                ],
+                "options": {
+                  "sensitive": false,
+                  "regex": false
+                },
+                "refSerialize": "8c9c73c97a6829115e3e1d4cf78eb07e"
+              },
+              {
+                "ref": "ans_86fafa17-3b4d-4613-847c-1fb9afc6fed1",
+                "keyword": "key_73a88d19-845e-405a-98d4-565300a147f3",
+                "answer": "__call_action__",
+                "options": {
+                  "media": null,
+                  "buttons": [],
+                  "capture": false,
+                  "child": null,
+                  "delay": 0,
+                  "idle": null,
+                  "ref": null,
+                  "nested": [],
+                  "keyword": {},
+                  "callback": true
+                },
+                "refSerialize": "29d95365d2d8cb3519e0fbb8ecea996c"
+              },
+              {
+                "ref": "key_7016ae52-bca3-416e-a3f6-12752d6df39c",
+                "keyword": [
+                  "3.-",
+                  "3.",
+                  "3",
+                  "empezar"
+                ],
+                "options": {
+                  "sensitive": false,
+                  "regex": false
+                },
+                "refSerialize": "d5caddc945725eb814f899da0ae573b3"
+              },
+              {
+                "ref": "ans_3dd3fc1c-afea-4102-a8de-3354dad861ab",
+                "keyword": "key_7016ae52-bca3-416e-a3f6-12752d6df39c",
+                "answer": "__call_action__",
+                "options": {
+                  "media": null,
+                  "buttons": [],
+                  "capture": false,
+                  "child": null,
+                  "delay": 0,
+                  "idle": null,
+                  "ref": null,
+                  "nested": [],
+                  "keyword": {},
+                  "callback": true
+                },
+                "refSerialize": "08726ea37bf1f6901ce6539ec7d7c0d4"
+              },
+              {
+                "ref": "key_9e44e416-35d5-438f-8139-8480f75048ac",
+                "keyword": [
+                  "4.-",
+                  "4.",
+                  "4",
+                  "todas"
+                ],
+                "options": {
+                  "sensitive": false,
+                  "regex": false
+                },
+                "refSerialize": "073d8a210e8c1d9a74a4ace86a1173c7"
+              },
+              {
+                "ref": "ans_09a0165d-0e0f-4170-90ef-57e9882fdb5b",
+                "keyword": "key_9e44e416-35d5-438f-8139-8480f75048ac",
+                "answer": "__call_action__",
+                "options": {
+                  "media": null,
+                  "buttons": [],
+                  "capture": false,
+                  "child": null,
+                  "delay": 0,
+                  "idle": null,
+                  "ref": null,
+                  "nested": [],
+                  "keyword": {},
+                  "callback": true
+                },
+                "refSerialize": "f4aa7d1e50f0c220692892dcf27d2a23"
+              }
+            ],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "3bd56c2fa765c7f5376da78a91a77ef7"
+        },
+        {
+          "ref": "key_0fffc5bc-5a21-49da-8c1a-a7f38219bb2a",
+          "keyword": [
+            "2.-",
+            "2.",
+            "2",
+            "agregar",
+            "Agregar",
+            "tarea"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "f665ac2bb9308974a8104cddc4c57732"
+        },
+        {
+          "ref": "ans_9115e3fd-6349-4005-9348-93b8b32dbf93",
+          "keyword": "key_0fffc5bc-5a21-49da-8c1a-a7f38219bb2a",
+          "answer": "Hola!\nPara enviar el formulario necesito unos datos...\nEscriba el nombre del evento*",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": true,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "284c34dea1769cd22dd478e3878d1d8e"
+        },
+        {
+          "ref": "ans_f9f98382-b0ff-4a9f-b8d6-70c012f44eaa",
+          "keyword": "ans_9115e3fd-6349-4005-9348-93b8b32dbf93",
+          "answer": "También necesito una descripción del evento",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": true,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "81595f9f23ff2908a8640c8faaa71891"
+        },
+        {
+          "ref": "key_e7d49f56-42b3-434c-8252-2a64bead0aec",
+          "keyword": [
+            "3.-",
+            "3.",
+            "3",
+            "informacion",
+            "Inforacion"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "3d29967f7353c0dff8a03ecb560e68eb"
+        },
+        {
+          "ref": "ans_06647180-262a-4986-b013-b3fef5fc245c",
+          "keyword": "key_e7d49f56-42b3-434c-8252-2a64bead0aec",
+          "answer": "Hola y Bienvenido! como puedo ayudarte",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "2db03351f0399496a762fc6750fff09c"
+        },
+        {
+          "ref": "key_52751837-c947-4912-835a-136b315252ca",
+          "keyword": [
+            "4.-",
+            "4.",
+            "4",
+            "saber",
+            "Saber",
+            "mas"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "38a067cc085662fb402ead43960950b7"
+        },
+        {
+          "ref": "ans_5ee5296d-bbd3-4b67-afc2-f588835a11d0",
+          "keyword": "key_52751837-c947-4912-835a-136b315252ca",
+          "answer": "Gracias por interesarte en mi 😚. \n \n mas informacion sobre mi en https://www.notion.so/Imagina-un-mundo-donde-organizar-tus-ideas-y-proyectos-sea-tan-f-cil-bc80179c702e43abba8375d450216d8e?pvs=4",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "85c523611c3ceec730e65a36b430ea52"
+        }
+      ],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "22ffd096f7c67084393f619aeb8bb847",
+    "from": "5212226691915"
+  },
+  {
+    "ref": "ba7882df-d810-4e24-a90c-b9f9a8e2d94a",
+    "keyword": "22ffd096f7c67084393f619aeb8bb847",
+    "answer": "1",
+    "options": {},
+    "from": "5212226691915",
+    "refSerialize": "290236b1d481a790a200ea6e94b2122a"
+  },
+  {
+    "ref": "ans_03cf7492-59a7-420c-9c58-64816e8fc9ba",
+    "keyword": "key_6ad7ad03-001f-44c1-9320-2c43869eb03d",
+    "answer": "➡ 1.-Ver eventos completados\n➡ 2.-Ver eventos en curso\n➡ 3.-Ver eventos sin empezar\n➡ 4.-Ver todos los eventos",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [
+        {
+          "ref": "key_25e5449f-4d3e-450b-b686-5830c92f0207",
+          "keyword": [
+            "1.-",
+            "1.",
+            "1",
+            "listas"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "c374d4c5f46754641fad1633a58bdaa9"
+        },
+        {
+          "ref": "ans_ff1fe5d2-aff2-4142-b1c5-28479456c95e",
+          "keyword": "key_25e5449f-4d3e-450b-b686-5830c92f0207",
+          "answer": "__call_action__",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "23e89cbc94d8ee4dcc1a5cdbc046ecc7"
+        },
+        {
+          "ref": "key_73a88d19-845e-405a-98d4-565300a147f3",
+          "keyword": [
+            "2.-",
+            "2.",
+            "2",
+            "curso"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "8c9c73c97a6829115e3e1d4cf78eb07e"
+        },
+        {
+          "ref": "ans_86fafa17-3b4d-4613-847c-1fb9afc6fed1",
+          "keyword": "key_73a88d19-845e-405a-98d4-565300a147f3",
+          "answer": "__call_action__",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "29d95365d2d8cb3519e0fbb8ecea996c"
+        },
+        {
+          "ref": "key_7016ae52-bca3-416e-a3f6-12752d6df39c",
+          "keyword": [
+            "3.-",
+            "3.",
+            "3",
+            "empezar"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "d5caddc945725eb814f899da0ae573b3"
+        },
+        {
+          "ref": "ans_3dd3fc1c-afea-4102-a8de-3354dad861ab",
+          "keyword": "key_7016ae52-bca3-416e-a3f6-12752d6df39c",
+          "answer": "__call_action__",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "08726ea37bf1f6901ce6539ec7d7c0d4"
+        },
+        {
+          "ref": "key_9e44e416-35d5-438f-8139-8480f75048ac",
+          "keyword": [
+            "4.-",
+            "4.",
+            "4",
+            "todas"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "073d8a210e8c1d9a74a4ace86a1173c7"
+        },
+        {
+          "ref": "ans_09a0165d-0e0f-4170-90ef-57e9882fdb5b",
+          "keyword": "key_9e44e416-35d5-438f-8139-8480f75048ac",
+          "answer": "__call_action__",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "f4aa7d1e50f0c220692892dcf27d2a23"
+        }
+      ],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "3bd56c2fa765c7f5376da78a91a77ef7",
+    "from": "5212226691915"
+  },
+  {
+    "ref": "972a9517-287b-462b-bc59-02fe5f5f7d38",
+    "keyword": "3bd56c2fa765c7f5376da78a91a77ef7",
+    "answer": "3",
+    "options": {},
+    "from": "5212226691915",
+    "refSerialize": "7af65864494b12f0f7ef00589f4d3979"
+  },
+  {
+    "ref": "ans_3dd3fc1c-afea-4102-a8de-3354dad861ab",
+    "keyword": "key_7016ae52-bca3-416e-a3f6-12752d6df39c",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "08726ea37bf1f6901ce6539ec7d7c0d4",
+    "from": "5212226691915"
+  },
+  {
+    "ref": "da28a24d-48c3-4983-8fb8-92308386b0a2",
+    "keyword": null,
+    "answer": "🚫 Tareas sin empezar:\n\"Hackathon\"\n\n\"Aun más cumple\"\n\n\"Navidad\"\n\n\"Finalizar el proyecto\"\n\n\"Un bautizo\"",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5212226691915",
+    "refSerialize": "020114327bad4689c3657c307a0e9d36"
+  },
+  {
+    "ref": "ans_c416bff5-612a-4df2-9917-4538cf02ac05",
+    "keyword": "key_8ba7d184-b9bd-40ef-8c3d-bb2e1eb0831d",
+    "answer": "🙌 Hola bienvenido al chatBot lobOs",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "66d1c8c44b18113e32fee39a1753c22c",
+    "from": "5212228658596"
+  },
+  {
+    "ref": "ans_b5cc858c-111e-40e5-a1d8-49e06330f622",
+    "keyword": "ans_c416bff5-612a-4df2-9917-4538cf02ac05",
+    "answer": "Te comparto lo que puedes hacer hoy: \n➡ 1.-Ver eventos\n➡ 2.-Agregar evento\n➡ 3.-Información de mis eventos\n➡ 4.-¿Quieres iniciar tus primeros pasos conmigo? 👉👈",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [
+        {
+          "ref": "key_6ad7ad03-001f-44c1-9320-2c43869eb03d",
+          "keyword": [
+            "1.-",
+            "1.",
+            "1",
+            "ver tareas",
+            "tareas"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "b76412a822bea99fe49d83d1ada25f52"
+        },
+        {
+          "ref": "ans_03cf7492-59a7-420c-9c58-64816e8fc9ba",
+          "keyword": "key_6ad7ad03-001f-44c1-9320-2c43869eb03d",
+          "answer": "➡ 1.-Ver eventos completados\n➡ 2.-Ver eventos en curso\n➡ 3.-Ver eventos sin empezar\n➡ 4.-Ver todos los eventos",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [
+              {
+                "ref": "key_25e5449f-4d3e-450b-b686-5830c92f0207",
+                "keyword": [
+                  "1.-",
+                  "1.",
+                  "1",
+                  "listas"
+                ],
+                "options": {
+                  "sensitive": false,
+                  "regex": false
+                },
+                "refSerialize": "c374d4c5f46754641fad1633a58bdaa9"
+              },
+              {
+                "ref": "ans_ff1fe5d2-aff2-4142-b1c5-28479456c95e",
+                "keyword": "key_25e5449f-4d3e-450b-b686-5830c92f0207",
+                "answer": "__call_action__",
+                "options": {
+                  "media": null,
+                  "buttons": [],
+                  "capture": false,
+                  "child": null,
+                  "delay": 0,
+                  "idle": null,
+                  "ref": null,
+                  "nested": [],
+                  "keyword": {},
+                  "callback": true
+                },
+                "refSerialize": "23e89cbc94d8ee4dcc1a5cdbc046ecc7"
+              },
+              {
+                "ref": "key_73a88d19-845e-405a-98d4-565300a147f3",
+                "keyword": [
+                  "2.-",
+                  "2.",
+                  "2",
+                  "curso"
+                ],
+                "options": {
+                  "sensitive": false,
+                  "regex": false
+                },
+                "refSerialize": "8c9c73c97a6829115e3e1d4cf78eb07e"
+              },
+              {
+                "ref": "ans_86fafa17-3b4d-4613-847c-1fb9afc6fed1",
+                "keyword": "key_73a88d19-845e-405a-98d4-565300a147f3",
+                "answer": "__call_action__",
+                "options": {
+                  "media": null,
+                  "buttons": [],
+                  "capture": false,
+                  "child": null,
+                  "delay": 0,
+                  "idle": null,
+                  "ref": null,
+                  "nested": [],
+                  "keyword": {},
+                  "callback": true
+                },
+                "refSerialize": "29d95365d2d8cb3519e0fbb8ecea996c"
+              },
+              {
+                "ref": "key_7016ae52-bca3-416e-a3f6-12752d6df39c",
+                "keyword": [
+                  "3.-",
+                  "3.",
+                  "3",
+                  "empezar"
+                ],
+                "options": {
+                  "sensitive": false,
+                  "regex": false
+                },
+                "refSerialize": "d5caddc945725eb814f899da0ae573b3"
+              },
+              {
+                "ref": "ans_3dd3fc1c-afea-4102-a8de-3354dad861ab",
+                "keyword": "key_7016ae52-bca3-416e-a3f6-12752d6df39c",
+                "answer": "__call_action__",
+                "options": {
+                  "media": null,
+                  "buttons": [],
+                  "capture": false,
+                  "child": null,
+                  "delay": 0,
+                  "idle": null,
+                  "ref": null,
+                  "nested": [],
+                  "keyword": {},
+                  "callback": true
+                },
+                "refSerialize": "08726ea37bf1f6901ce6539ec7d7c0d4"
+              },
+              {
+                "ref": "key_9e44e416-35d5-438f-8139-8480f75048ac",
+                "keyword": [
+                  "4.-",
+                  "4.",
+                  "4",
+                  "todas"
+                ],
+                "options": {
+                  "sensitive": false,
+                  "regex": false
+                },
+                "refSerialize": "073d8a210e8c1d9a74a4ace86a1173c7"
+              },
+              {
+                "ref": "ans_09a0165d-0e0f-4170-90ef-57e9882fdb5b",
+                "keyword": "key_9e44e416-35d5-438f-8139-8480f75048ac",
+                "answer": "__call_action__",
+                "options": {
+                  "media": null,
+                  "buttons": [],
+                  "capture": false,
+                  "child": null,
+                  "delay": 0,
+                  "idle": null,
+                  "ref": null,
+                  "nested": [],
+                  "keyword": {},
+                  "callback": true
+                },
+                "refSerialize": "f4aa7d1e50f0c220692892dcf27d2a23"
+              }
+            ],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "3bd56c2fa765c7f5376da78a91a77ef7"
+        },
+        {
+          "ref": "key_0fffc5bc-5a21-49da-8c1a-a7f38219bb2a",
+          "keyword": [
+            "2.-",
+            "2.",
+            "2",
+            "agregar",
+            "Agregar",
+            "tarea"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "f665ac2bb9308974a8104cddc4c57732"
+        },
+        {
+          "ref": "ans_9115e3fd-6349-4005-9348-93b8b32dbf93",
+          "keyword": "key_0fffc5bc-5a21-49da-8c1a-a7f38219bb2a",
+          "answer": "Hola!\nPara enviar el formulario necesito unos datos...\nEscriba el nombre del evento*",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": true,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "284c34dea1769cd22dd478e3878d1d8e"
+        },
+        {
+          "ref": "ans_f9f98382-b0ff-4a9f-b8d6-70c012f44eaa",
+          "keyword": "ans_9115e3fd-6349-4005-9348-93b8b32dbf93",
+          "answer": "También necesito una descripción del evento",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": true,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "81595f9f23ff2908a8640c8faaa71891"
+        },
+        {
+          "ref": "key_e7d49f56-42b3-434c-8252-2a64bead0aec",
+          "keyword": [
+            "3.-",
+            "3.",
+            "3",
+            "informacion",
+            "Inforacion"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "3d29967f7353c0dff8a03ecb560e68eb"
+        },
+        {
+          "ref": "ans_06647180-262a-4986-b013-b3fef5fc245c",
+          "keyword": "key_e7d49f56-42b3-434c-8252-2a64bead0aec",
+          "answer": "Hola y Bienvenido! como puedo ayudarte",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "2db03351f0399496a762fc6750fff09c"
+        },
+        {
+          "ref": "key_52751837-c947-4912-835a-136b315252ca",
+          "keyword": [
+            "4.-",
+            "4.",
+            "4",
+            "saber",
+            "Saber",
+            "mas"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "38a067cc085662fb402ead43960950b7"
+        },
+        {
+          "ref": "ans_5ee5296d-bbd3-4b67-afc2-f588835a11d0",
+          "keyword": "key_52751837-c947-4912-835a-136b315252ca",
+          "answer": "Gracias por interesarte en mi 😚. \n \n mas informacion sobre mi en https://www.notion.so/Imagina-un-mundo-donde-organizar-tus-ideas-y-proyectos-sea-tan-f-cil-bc80179c702e43abba8375d450216d8e?pvs=4",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "85c523611c3ceec730e65a36b430ea52"
+        }
+      ],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "22ffd096f7c67084393f619aeb8bb847",
+    "from": "5212228658596"
+  },
+  {
+    "ref": "00203b50-409f-4583-9f23-942fcbd6af4a",
+    "keyword": "22ffd096f7c67084393f619aeb8bb847",
+    "answer": "2",
+    "options": {},
+    "from": "5212228658596",
+    "refSerialize": "2294c3d08b53a6effa5df696a15b9d30"
+  },
+  {
+    "ref": "ans_9115e3fd-6349-4005-9348-93b8b32dbf93",
+    "keyword": "key_0fffc5bc-5a21-49da-8c1a-a7f38219bb2a",
+    "answer": "Hola!\nPara enviar el formulario necesito unos datos...\nEscriba el nombre del evento*",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": true,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "284c34dea1769cd22dd478e3878d1d8e",
+    "from": "5212228658596"
+  },
+  {
+    "ref": "e4f02a38-c4ef-4eb2-bd32-0eb88cb3adbd",
+    "keyword": "284c34dea1769cd22dd478e3878d1d8e",
+    "answer": "Ir al lobo hackthon",
+    "options": {},
+    "from": "5212228658596",
+    "refSerialize": "391cab1b94bf2ab60824a1227a2e273b"
+  },
+  {
+    "ref": "352b99a1-7c24-410d-af11-1c53ad168ea0",
+    "keyword": null,
+    "answer": "...",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5212228658596",
+    "refSerialize": "d2fc963648e6d79a16bca7da1ad886d1"
+  },
+  {
+    "ref": "ans_f9f98382-b0ff-4a9f-b8d6-70c012f44eaa",
+    "keyword": "ans_9115e3fd-6349-4005-9348-93b8b32dbf93",
+    "answer": "También necesito una descripción del evento",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": true,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "81595f9f23ff2908a8640c8faaa71891",
+    "from": "5212228658596"
+  },
+  {
+    "ref": "63b408a2-ad03-4cb5-bf3c-56914f4a9360",
+    "keyword": "81595f9f23ff2908a8640c8faaa71891",
+    "answer": "Ir a ganar el evento",
+    "options": {},
+    "from": "5212228658596",
+    "refSerialize": "09f768c33ccc0eeb9c261e60ffacb616"
+  },
+  {
+    "ref": "18494f4a-bbbc-4e24-a9c6-09e70a2f27f5",
+    "keyword": "09f768c33ccc0eeb9c261e60ffacb616",
+    "answer": "Hola",
+    "options": {},
+    "from": "5212228658596",
+    "refSerialize": "c22e4066d61d81721def9b25d8a397e8"
+  },
+  {
+    "ref": "ans_c416bff5-612a-4df2-9917-4538cf02ac05",
+    "keyword": "key_8ba7d184-b9bd-40ef-8c3d-bb2e1eb0831d",
+    "answer": "🙌 Hola bienvenido al chatBot lobOs",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "66d1c8c44b18113e32fee39a1753c22c",
+    "from": "5212228658596"
+  },
+  {
+    "ref": "ans_b5cc858c-111e-40e5-a1d8-49e06330f622",
+    "keyword": "ans_c416bff5-612a-4df2-9917-4538cf02ac05",
+    "answer": "Te comparto lo que puedes hacer hoy: \n➡ 1.-Ver eventos\n➡ 2.-Agregar evento\n➡ 3.-Información de mis eventos\n➡ 4.-¿Quieres iniciar tus primeros pasos conmigo? 👉👈",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [
+        {
+          "ref": "key_6ad7ad03-001f-44c1-9320-2c43869eb03d",
+          "keyword": [
+            "1.-",
+            "1.",
+            "1",
+            "ver tareas",
+            "tareas"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "b76412a822bea99fe49d83d1ada25f52"
+        },
+        {
+          "ref": "ans_03cf7492-59a7-420c-9c58-64816e8fc9ba",
+          "keyword": "key_6ad7ad03-001f-44c1-9320-2c43869eb03d",
+          "answer": "➡ 1.-Ver eventos completados\n➡ 2.-Ver eventos en curso\n➡ 3.-Ver eventos sin empezar\n➡ 4.-Ver todos los eventos",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [
+              {
+                "ref": "key_25e5449f-4d3e-450b-b686-5830c92f0207",
+                "keyword": [
+                  "1.-",
+                  "1.",
+                  "1",
+                  "listas"
+                ],
+                "options": {
+                  "sensitive": false,
+                  "regex": false
+                },
+                "refSerialize": "c374d4c5f46754641fad1633a58bdaa9"
+              },
+              {
+                "ref": "ans_ff1fe5d2-aff2-4142-b1c5-28479456c95e",
+                "keyword": "key_25e5449f-4d3e-450b-b686-5830c92f0207",
+                "answer": "__call_action__",
+                "options": {
+                  "media": null,
+                  "buttons": [],
+                  "capture": false,
+                  "child": null,
+                  "delay": 0,
+                  "idle": null,
+                  "ref": null,
+                  "nested": [],
+                  "keyword": {},
+                  "callback": true
+                },
+                "refSerialize": "23e89cbc94d8ee4dcc1a5cdbc046ecc7"
+              },
+              {
+                "ref": "key_73a88d19-845e-405a-98d4-565300a147f3",
+                "keyword": [
+                  "2.-",
+                  "2.",
+                  "2",
+                  "curso"
+                ],
+                "options": {
+                  "sensitive": false,
+                  "regex": false
+                },
+                "refSerialize": "8c9c73c97a6829115e3e1d4cf78eb07e"
+              },
+              {
+                "ref": "ans_86fafa17-3b4d-4613-847c-1fb9afc6fed1",
+                "keyword": "key_73a88d19-845e-405a-98d4-565300a147f3",
+                "answer": "__call_action__",
+                "options": {
+                  "media": null,
+                  "buttons": [],
+                  "capture": false,
+                  "child": null,
+                  "delay": 0,
+                  "idle": null,
+                  "ref": null,
+                  "nested": [],
+                  "keyword": {},
+                  "callback": true
+                },
+                "refSerialize": "29d95365d2d8cb3519e0fbb8ecea996c"
+              },
+              {
+                "ref": "key_7016ae52-bca3-416e-a3f6-12752d6df39c",
+                "keyword": [
+                  "3.-",
+                  "3.",
+                  "3",
+                  "empezar"
+                ],
+                "options": {
+                  "sensitive": false,
+                  "regex": false
+                },
+                "refSerialize": "d5caddc945725eb814f899da0ae573b3"
+              },
+              {
+                "ref": "ans_3dd3fc1c-afea-4102-a8de-3354dad861ab",
+                "keyword": "key_7016ae52-bca3-416e-a3f6-12752d6df39c",
+                "answer": "__call_action__",
+                "options": {
+                  "media": null,
+                  "buttons": [],
+                  "capture": false,
+                  "child": null,
+                  "delay": 0,
+                  "idle": null,
+                  "ref": null,
+                  "nested": [],
+                  "keyword": {},
+                  "callback": true
+                },
+                "refSerialize": "08726ea37bf1f6901ce6539ec7d7c0d4"
+              },
+              {
+                "ref": "key_9e44e416-35d5-438f-8139-8480f75048ac",
+                "keyword": [
+                  "4.-",
+                  "4.",
+                  "4",
+                  "todas"
+                ],
+                "options": {
+                  "sensitive": false,
+                  "regex": false
+                },
+                "refSerialize": "073d8a210e8c1d9a74a4ace86a1173c7"
+              },
+              {
+                "ref": "ans_09a0165d-0e0f-4170-90ef-57e9882fdb5b",
+                "keyword": "key_9e44e416-35d5-438f-8139-8480f75048ac",
+                "answer": "__call_action__",
+                "options": {
+                  "media": null,
+                  "buttons": [],
+                  "capture": false,
+                  "child": null,
+                  "delay": 0,
+                  "idle": null,
+                  "ref": null,
+                  "nested": [],
+                  "keyword": {},
+                  "callback": true
+                },
+                "refSerialize": "f4aa7d1e50f0c220692892dcf27d2a23"
+              }
+            ],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "3bd56c2fa765c7f5376da78a91a77ef7"
+        },
+        {
+          "ref": "key_0fffc5bc-5a21-49da-8c1a-a7f38219bb2a",
+          "keyword": [
+            "2.-",
+            "2.",
+            "2",
+            "agregar",
+            "Agregar",
+            "tarea"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "f665ac2bb9308974a8104cddc4c57732"
+        },
+        {
+          "ref": "ans_9115e3fd-6349-4005-9348-93b8b32dbf93",
+          "keyword": "key_0fffc5bc-5a21-49da-8c1a-a7f38219bb2a",
+          "answer": "Hola!\nPara enviar el formulario necesito unos datos...\nEscriba el nombre del evento*",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": true,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "284c34dea1769cd22dd478e3878d1d8e"
+        },
+        {
+          "ref": "ans_f9f98382-b0ff-4a9f-b8d6-70c012f44eaa",
+          "keyword": "ans_9115e3fd-6349-4005-9348-93b8b32dbf93",
+          "answer": "También necesito una descripción del evento",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": true,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "81595f9f23ff2908a8640c8faaa71891"
+        },
+        {
+          "ref": "key_e7d49f56-42b3-434c-8252-2a64bead0aec",
+          "keyword": [
+            "3.-",
+            "3.",
+            "3",
+            "informacion",
+            "Inforacion"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "3d29967f7353c0dff8a03ecb560e68eb"
+        },
+        {
+          "ref": "ans_06647180-262a-4986-b013-b3fef5fc245c",
+          "keyword": "key_e7d49f56-42b3-434c-8252-2a64bead0aec",
+          "answer": "Hola y Bienvenido! como puedo ayudarte",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "2db03351f0399496a762fc6750fff09c"
+        },
+        {
+          "ref": "key_52751837-c947-4912-835a-136b315252ca",
+          "keyword": [
+            "4.-",
+            "4.",
+            "4",
+            "saber",
+            "Saber",
+            "mas"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "38a067cc085662fb402ead43960950b7"
+        },
+        {
+          "ref": "ans_5ee5296d-bbd3-4b67-afc2-f588835a11d0",
+          "keyword": "key_52751837-c947-4912-835a-136b315252ca",
+          "answer": "Gracias por interesarte en mi 😚. \n \n mas informacion sobre mi en https://www.notion.so/Imagina-un-mundo-donde-organizar-tus-ideas-y-proyectos-sea-tan-f-cil-bc80179c702e43abba8375d450216d8e?pvs=4",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "85c523611c3ceec730e65a36b430ea52"
+        }
+      ],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "22ffd096f7c67084393f619aeb8bb847",
+    "from": "5212228658596"
+  },
+  {
+    "ref": "0d1c59fc-1daa-4608-bf1b-9c70fa3af91b",
+    "keyword": "22ffd096f7c67084393f619aeb8bb847",
+    "answer": "1",
+    "options": {},
+    "from": "5212228658596",
+    "refSerialize": "290236b1d481a790a200ea6e94b2122a"
+  },
+  {
+    "ref": "ans_03cf7492-59a7-420c-9c58-64816e8fc9ba",
+    "keyword": "key_6ad7ad03-001f-44c1-9320-2c43869eb03d",
+    "answer": "➡ 1.-Ver eventos completados\n➡ 2.-Ver eventos en curso\n➡ 3.-Ver eventos sin empezar\n➡ 4.-Ver todos los eventos",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [
+        {
+          "ref": "key_25e5449f-4d3e-450b-b686-5830c92f0207",
+          "keyword": [
+            "1.-",
+            "1.",
+            "1",
+            "listas"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "c374d4c5f46754641fad1633a58bdaa9"
+        },
+        {
+          "ref": "ans_ff1fe5d2-aff2-4142-b1c5-28479456c95e",
+          "keyword": "key_25e5449f-4d3e-450b-b686-5830c92f0207",
+          "answer": "__call_action__",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "23e89cbc94d8ee4dcc1a5cdbc046ecc7"
+        },
+        {
+          "ref": "key_73a88d19-845e-405a-98d4-565300a147f3",
+          "keyword": [
+            "2.-",
+            "2.",
+            "2",
+            "curso"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "8c9c73c97a6829115e3e1d4cf78eb07e"
+        },
+        {
+          "ref": "ans_86fafa17-3b4d-4613-847c-1fb9afc6fed1",
+          "keyword": "key_73a88d19-845e-405a-98d4-565300a147f3",
+          "answer": "__call_action__",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "29d95365d2d8cb3519e0fbb8ecea996c"
+        },
+        {
+          "ref": "key_7016ae52-bca3-416e-a3f6-12752d6df39c",
+          "keyword": [
+            "3.-",
+            "3.",
+            "3",
+            "empezar"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "d5caddc945725eb814f899da0ae573b3"
+        },
+        {
+          "ref": "ans_3dd3fc1c-afea-4102-a8de-3354dad861ab",
+          "keyword": "key_7016ae52-bca3-416e-a3f6-12752d6df39c",
+          "answer": "__call_action__",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "08726ea37bf1f6901ce6539ec7d7c0d4"
+        },
+        {
+          "ref": "key_9e44e416-35d5-438f-8139-8480f75048ac",
+          "keyword": [
+            "4.-",
+            "4.",
+            "4",
+            "todas"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "073d8a210e8c1d9a74a4ace86a1173c7"
+        },
+        {
+          "ref": "ans_09a0165d-0e0f-4170-90ef-57e9882fdb5b",
+          "keyword": "key_9e44e416-35d5-438f-8139-8480f75048ac",
+          "answer": "__call_action__",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "f4aa7d1e50f0c220692892dcf27d2a23"
+        }
+      ],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "3bd56c2fa765c7f5376da78a91a77ef7",
+    "from": "5212228658596"
+  },
+  {
+    "ref": "6f3672c6-7ae7-4197-8e40-ff0d704d884b",
+    "keyword": "3bd56c2fa765c7f5376da78a91a77ef7",
+    "answer": "2",
+    "options": {},
+    "from": "5212228658596",
+    "refSerialize": "2294c3d08b53a6effa5df696a15b9d30"
+  },
+  {
+    "ref": "ans_86fafa17-3b4d-4613-847c-1fb9afc6fed1",
+    "keyword": "key_73a88d19-845e-405a-98d4-565300a147f3",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "29d95365d2d8cb3519e0fbb8ecea996c",
+    "from": "5212228658596"
+  },
+  {
+    "ref": "896c27dd-6eab-46d0-95de-0f5f9cc756ac",
+    "keyword": null,
+    "answer": "⏳ Tareas en curso:\n\"Otro cumpleaños\"\n\n\"Cumpleaños\"\n\n\"Evento prueba\"\n\n\"Visitar Italia\"\n\n\"Buscar un lugar nuevo para vivir\"",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5212228658596",
+    "refSerialize": "96a6ff3ab12b9602e7cd06a69fcb9254"
+  },
+  {
+    "ref": "6608a76f-2edc-4f84-b031-d99945e997b4",
+    "keyword": "29d95365d2d8cb3519e0fbb8ecea996c",
+    "answer": "Hola",
+    "options": {},
+    "from": "5212228658596",
+    "refSerialize": "c22e4066d61d81721def9b25d8a397e8"
+  },
+  {
+    "ref": "ans_c416bff5-612a-4df2-9917-4538cf02ac05",
+    "keyword": "key_8ba7d184-b9bd-40ef-8c3d-bb2e1eb0831d",
+    "answer": "🙌 Hola bienvenido al chatBot lobOs",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "66d1c8c44b18113e32fee39a1753c22c",
+    "from": "5212228658596"
+  },
+  {
+    "ref": "ans_b5cc858c-111e-40e5-a1d8-49e06330f622",
+    "keyword": "ans_c416bff5-612a-4df2-9917-4538cf02ac05",
+    "answer": "Te comparto lo que puedes hacer hoy: \n➡ 1.-Ver eventos\n➡ 2.-Agregar evento\n➡ 3.-Información de mis eventos\n➡ 4.-¿Quieres iniciar tus primeros pasos conmigo? 👉👈",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [
+        {
+          "ref": "key_6ad7ad03-001f-44c1-9320-2c43869eb03d",
+          "keyword": [
+            "1.-",
+            "1.",
+            "1",
+            "ver tareas",
+            "tareas"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "b76412a822bea99fe49d83d1ada25f52"
+        },
+        {
+          "ref": "ans_03cf7492-59a7-420c-9c58-64816e8fc9ba",
+          "keyword": "key_6ad7ad03-001f-44c1-9320-2c43869eb03d",
+          "answer": "➡ 1.-Ver eventos completados\n➡ 2.-Ver eventos en curso\n➡ 3.-Ver eventos sin empezar\n➡ 4.-Ver todos los eventos",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [
+              {
+                "ref": "key_25e5449f-4d3e-450b-b686-5830c92f0207",
+                "keyword": [
+                  "1.-",
+                  "1.",
+                  "1",
+                  "listas"
+                ],
+                "options": {
+                  "sensitive": false,
+                  "regex": false
+                },
+                "refSerialize": "c374d4c5f46754641fad1633a58bdaa9"
+              },
+              {
+                "ref": "ans_ff1fe5d2-aff2-4142-b1c5-28479456c95e",
+                "keyword": "key_25e5449f-4d3e-450b-b686-5830c92f0207",
+                "answer": "__call_action__",
+                "options": {
+                  "media": null,
+                  "buttons": [],
+                  "capture": false,
+                  "child": null,
+                  "delay": 0,
+                  "idle": null,
+                  "ref": null,
+                  "nested": [],
+                  "keyword": {},
+                  "callback": true
+                },
+                "refSerialize": "23e89cbc94d8ee4dcc1a5cdbc046ecc7"
+              },
+              {
+                "ref": "key_73a88d19-845e-405a-98d4-565300a147f3",
+                "keyword": [
+                  "2.-",
+                  "2.",
+                  "2",
+                  "curso"
+                ],
+                "options": {
+                  "sensitive": false,
+                  "regex": false
+                },
+                "refSerialize": "8c9c73c97a6829115e3e1d4cf78eb07e"
+              },
+              {
+                "ref": "ans_86fafa17-3b4d-4613-847c-1fb9afc6fed1",
+                "keyword": "key_73a88d19-845e-405a-98d4-565300a147f3",
+                "answer": "__call_action__",
+                "options": {
+                  "media": null,
+                  "buttons": [],
+                  "capture": false,
+                  "child": null,
+                  "delay": 0,
+                  "idle": null,
+                  "ref": null,
+                  "nested": [],
+                  "keyword": {},
+                  "callback": true
+                },
+                "refSerialize": "29d95365d2d8cb3519e0fbb8ecea996c"
+              },
+              {
+                "ref": "key_7016ae52-bca3-416e-a3f6-12752d6df39c",
+                "keyword": [
+                  "3.-",
+                  "3.",
+                  "3",
+                  "empezar"
+                ],
+                "options": {
+                  "sensitive": false,
+                  "regex": false
+                },
+                "refSerialize": "d5caddc945725eb814f899da0ae573b3"
+              },
+              {
+                "ref": "ans_3dd3fc1c-afea-4102-a8de-3354dad861ab",
+                "keyword": "key_7016ae52-bca3-416e-a3f6-12752d6df39c",
+                "answer": "__call_action__",
+                "options": {
+                  "media": null,
+                  "buttons": [],
+                  "capture": false,
+                  "child": null,
+                  "delay": 0,
+                  "idle": null,
+                  "ref": null,
+                  "nested": [],
+                  "keyword": {},
+                  "callback": true
+                },
+                "refSerialize": "08726ea37bf1f6901ce6539ec7d7c0d4"
+              },
+              {
+                "ref": "key_9e44e416-35d5-438f-8139-8480f75048ac",
+                "keyword": [
+                  "4.-",
+                  "4.",
+                  "4",
+                  "todas"
+                ],
+                "options": {
+                  "sensitive": false,
+                  "regex": false
+                },
+                "refSerialize": "073d8a210e8c1d9a74a4ace86a1173c7"
+              },
+              {
+                "ref": "ans_09a0165d-0e0f-4170-90ef-57e9882fdb5b",
+                "keyword": "key_9e44e416-35d5-438f-8139-8480f75048ac",
+                "answer": "__call_action__",
+                "options": {
+                  "media": null,
+                  "buttons": [],
+                  "capture": false,
+                  "child": null,
+                  "delay": 0,
+                  "idle": null,
+                  "ref": null,
+                  "nested": [],
+                  "keyword": {},
+                  "callback": true
+                },
+                "refSerialize": "f4aa7d1e50f0c220692892dcf27d2a23"
+              }
+            ],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "3bd56c2fa765c7f5376da78a91a77ef7"
+        },
+        {
+          "ref": "key_0fffc5bc-5a21-49da-8c1a-a7f38219bb2a",
+          "keyword": [
+            "2.-",
+            "2.",
+            "2",
+            "agregar",
+            "Agregar",
+            "tarea"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "f665ac2bb9308974a8104cddc4c57732"
+        },
+        {
+          "ref": "ans_9115e3fd-6349-4005-9348-93b8b32dbf93",
+          "keyword": "key_0fffc5bc-5a21-49da-8c1a-a7f38219bb2a",
+          "answer": "Hola!\nPara enviar el formulario necesito unos datos...\nEscriba el nombre del evento*",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": true,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "284c34dea1769cd22dd478e3878d1d8e"
+        },
+        {
+          "ref": "ans_f9f98382-b0ff-4a9f-b8d6-70c012f44eaa",
+          "keyword": "ans_9115e3fd-6349-4005-9348-93b8b32dbf93",
+          "answer": "También necesito una descripción del evento",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": true,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "81595f9f23ff2908a8640c8faaa71891"
+        },
+        {
+          "ref": "key_e7d49f56-42b3-434c-8252-2a64bead0aec",
+          "keyword": [
+            "3.-",
+            "3.",
+            "3",
+            "informacion",
+            "Inforacion"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "3d29967f7353c0dff8a03ecb560e68eb"
+        },
+        {
+          "ref": "ans_06647180-262a-4986-b013-b3fef5fc245c",
+          "keyword": "key_e7d49f56-42b3-434c-8252-2a64bead0aec",
+          "answer": "Hola y Bienvenido! como puedo ayudarte",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "2db03351f0399496a762fc6750fff09c"
+        },
+        {
+          "ref": "key_52751837-c947-4912-835a-136b315252ca",
+          "keyword": [
+            "4.-",
+            "4.",
+            "4",
+            "saber",
+            "Saber",
+            "mas"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "38a067cc085662fb402ead43960950b7"
+        },
+        {
+          "ref": "ans_5ee5296d-bbd3-4b67-afc2-f588835a11d0",
+          "keyword": "key_52751837-c947-4912-835a-136b315252ca",
+          "answer": "Gracias por interesarte en mi 😚. \n \n mas informacion sobre mi en https://www.notion.so/Imagina-un-mundo-donde-organizar-tus-ideas-y-proyectos-sea-tan-f-cil-bc80179c702e43abba8375d450216d8e?pvs=4",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "85c523611c3ceec730e65a36b430ea52"
+        }
+      ],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "22ffd096f7c67084393f619aeb8bb847",
+    "from": "5212228658596"
+  },
+  {
+    "ref": "f5300e10-2f72-43ed-9574-90aa2c20f3be",
+    "keyword": "22ffd096f7c67084393f619aeb8bb847",
+    "answer": "3",
+    "options": {},
+    "from": "5212228658596",
+    "refSerialize": "7af65864494b12f0f7ef00589f4d3979"
+  },
+  {
+    "ref": "ans_06647180-262a-4986-b013-b3fef5fc245c",
+    "keyword": "key_e7d49f56-42b3-434c-8252-2a64bead0aec",
+    "answer": "Hola y Bienvenido! como puedo ayudarte",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "2db03351f0399496a762fc6750fff09c",
+    "from": "5212228658596"
+  },
+  {
+    "ref": "194184e6-7e2c-4e11-94cc-f71a699862d7",
+    "keyword": "2db03351f0399496a762fc6750fff09c",
+    "answer": "1",
+    "options": {},
+    "from": "5212228658596",
+    "refSerialize": "290236b1d481a790a200ea6e94b2122a"
+  },
+  {
+    "ref": "1d2faa47-159a-4375-a4b7-5b1e2335ec4a",
+    "keyword": "290236b1d481a790a200ea6e94b2122a",
+    "answer": "Hola",
+    "options": {},
+    "from": "5212228658596",
+    "refSerialize": "c22e4066d61d81721def9b25d8a397e8"
+  },
+  {
+    "ref": "ans_c416bff5-612a-4df2-9917-4538cf02ac05",
+    "keyword": "key_8ba7d184-b9bd-40ef-8c3d-bb2e1eb0831d",
+    "answer": "🙌 Hola bienvenido al chatBot lobOs",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "66d1c8c44b18113e32fee39a1753c22c",
+    "from": "5212228658596"
+  },
+  {
+    "ref": "ans_b5cc858c-111e-40e5-a1d8-49e06330f622",
+    "keyword": "ans_c416bff5-612a-4df2-9917-4538cf02ac05",
+    "answer": "Te comparto lo que puedes hacer hoy: \n➡ 1.-Ver eventos\n➡ 2.-Agregar evento\n➡ 3.-Información de mis eventos\n➡ 4.-¿Quieres iniciar tus primeros pasos conmigo? 👉👈",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [
+        {
+          "ref": "key_6ad7ad03-001f-44c1-9320-2c43869eb03d",
+          "keyword": [
+            "1.-",
+            "1.",
+            "1",
+            "ver tareas",
+            "tareas"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "b76412a822bea99fe49d83d1ada25f52"
+        },
+        {
+          "ref": "ans_03cf7492-59a7-420c-9c58-64816e8fc9ba",
+          "keyword": "key_6ad7ad03-001f-44c1-9320-2c43869eb03d",
+          "answer": "➡ 1.-Ver eventos completados\n➡ 2.-Ver eventos en curso\n➡ 3.-Ver eventos sin empezar\n➡ 4.-Ver todos los eventos",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [
+              {
+                "ref": "key_25e5449f-4d3e-450b-b686-5830c92f0207",
+                "keyword": [
+                  "1.-",
+                  "1.",
+                  "1",
+                  "listas"
+                ],
+                "options": {
+                  "sensitive": false,
+                  "regex": false
+                },
+                "refSerialize": "c374d4c5f46754641fad1633a58bdaa9"
+              },
+              {
+                "ref": "ans_ff1fe5d2-aff2-4142-b1c5-28479456c95e",
+                "keyword": "key_25e5449f-4d3e-450b-b686-5830c92f0207",
+                "answer": "__call_action__",
+                "options": {
+                  "media": null,
+                  "buttons": [],
+                  "capture": false,
+                  "child": null,
+                  "delay": 0,
+                  "idle": null,
+                  "ref": null,
+                  "nested": [],
+                  "keyword": {},
+                  "callback": true
+                },
+                "refSerialize": "23e89cbc94d8ee4dcc1a5cdbc046ecc7"
+              },
+              {
+                "ref": "key_73a88d19-845e-405a-98d4-565300a147f3",
+                "keyword": [
+                  "2.-",
+                  "2.",
+                  "2",
+                  "curso"
+                ],
+                "options": {
+                  "sensitive": false,
+                  "regex": false
+                },
+                "refSerialize": "8c9c73c97a6829115e3e1d4cf78eb07e"
+              },
+              {
+                "ref": "ans_86fafa17-3b4d-4613-847c-1fb9afc6fed1",
+                "keyword": "key_73a88d19-845e-405a-98d4-565300a147f3",
+                "answer": "__call_action__",
+                "options": {
+                  "media": null,
+                  "buttons": [],
+                  "capture": false,
+                  "child": null,
+                  "delay": 0,
+                  "idle": null,
+                  "ref": null,
+                  "nested": [],
+                  "keyword": {},
+                  "callback": true
+                },
+                "refSerialize": "29d95365d2d8cb3519e0fbb8ecea996c"
+              },
+              {
+                "ref": "key_7016ae52-bca3-416e-a3f6-12752d6df39c",
+                "keyword": [
+                  "3.-",
+                  "3.",
+                  "3",
+                  "empezar"
+                ],
+                "options": {
+                  "sensitive": false,
+                  "regex": false
+                },
+                "refSerialize": "d5caddc945725eb814f899da0ae573b3"
+              },
+              {
+                "ref": "ans_3dd3fc1c-afea-4102-a8de-3354dad861ab",
+                "keyword": "key_7016ae52-bca3-416e-a3f6-12752d6df39c",
+                "answer": "__call_action__",
+                "options": {
+                  "media": null,
+                  "buttons": [],
+                  "capture": false,
+                  "child": null,
+                  "delay": 0,
+                  "idle": null,
+                  "ref": null,
+                  "nested": [],
+                  "keyword": {},
+                  "callback": true
+                },
+                "refSerialize": "08726ea37bf1f6901ce6539ec7d7c0d4"
+              },
+              {
+                "ref": "key_9e44e416-35d5-438f-8139-8480f75048ac",
+                "keyword": [
+                  "4.-",
+                  "4.",
+                  "4",
+                  "todas"
+                ],
+                "options": {
+                  "sensitive": false,
+                  "regex": false
+                },
+                "refSerialize": "073d8a210e8c1d9a74a4ace86a1173c7"
+              },
+              {
+                "ref": "ans_09a0165d-0e0f-4170-90ef-57e9882fdb5b",
+                "keyword": "key_9e44e416-35d5-438f-8139-8480f75048ac",
+                "answer": "__call_action__",
+                "options": {
+                  "media": null,
+                  "buttons": [],
+                  "capture": false,
+                  "child": null,
+                  "delay": 0,
+                  "idle": null,
+                  "ref": null,
+                  "nested": [],
+                  "keyword": {},
+                  "callback": true
+                },
+                "refSerialize": "f4aa7d1e50f0c220692892dcf27d2a23"
+              }
+            ],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "3bd56c2fa765c7f5376da78a91a77ef7"
+        },
+        {
+          "ref": "key_0fffc5bc-5a21-49da-8c1a-a7f38219bb2a",
+          "keyword": [
+            "2.-",
+            "2.",
+            "2",
+            "agregar",
+            "Agregar",
+            "tarea"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "f665ac2bb9308974a8104cddc4c57732"
+        },
+        {
+          "ref": "ans_9115e3fd-6349-4005-9348-93b8b32dbf93",
+          "keyword": "key_0fffc5bc-5a21-49da-8c1a-a7f38219bb2a",
+          "answer": "Hola!\nPara enviar el formulario necesito unos datos...\nEscriba el nombre del evento*",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": true,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "284c34dea1769cd22dd478e3878d1d8e"
+        },
+        {
+          "ref": "ans_f9f98382-b0ff-4a9f-b8d6-70c012f44eaa",
+          "keyword": "ans_9115e3fd-6349-4005-9348-93b8b32dbf93",
+          "answer": "También necesito una descripción del evento",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": true,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "81595f9f23ff2908a8640c8faaa71891"
+        },
+        {
+          "ref": "key_e7d49f56-42b3-434c-8252-2a64bead0aec",
+          "keyword": [
+            "3.-",
+            "3.",
+            "3",
+            "informacion",
+            "Inforacion"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "3d29967f7353c0dff8a03ecb560e68eb"
+        },
+        {
+          "ref": "ans_06647180-262a-4986-b013-b3fef5fc245c",
+          "keyword": "key_e7d49f56-42b3-434c-8252-2a64bead0aec",
+          "answer": "Hola y Bienvenido! como puedo ayudarte",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "2db03351f0399496a762fc6750fff09c"
+        },
+        {
+          "ref": "key_52751837-c947-4912-835a-136b315252ca",
+          "keyword": [
+            "4.-",
+            "4.",
+            "4",
+            "saber",
+            "Saber",
+            "mas"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "38a067cc085662fb402ead43960950b7"
+        },
+        {
+          "ref": "ans_5ee5296d-bbd3-4b67-afc2-f588835a11d0",
+          "keyword": "key_52751837-c947-4912-835a-136b315252ca",
+          "answer": "Gracias por interesarte en mi 😚. \n \n mas informacion sobre mi en https://www.notion.so/Imagina-un-mundo-donde-organizar-tus-ideas-y-proyectos-sea-tan-f-cil-bc80179c702e43abba8375d450216d8e?pvs=4",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "85c523611c3ceec730e65a36b430ea52"
+        }
+      ],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "22ffd096f7c67084393f619aeb8bb847",
+    "from": "5212228658596"
+  },
+  {
+    "ref": "50bcc492-2846-44d1-a387-67c0c02db464",
+    "keyword": "22ffd096f7c67084393f619aeb8bb847",
+    "answer": "1",
+    "options": {},
+    "from": "5212228658596",
+    "refSerialize": "290236b1d481a790a200ea6e94b2122a"
+  },
+  {
+    "ref": "ans_03cf7492-59a7-420c-9c58-64816e8fc9ba",
+    "keyword": "key_6ad7ad03-001f-44c1-9320-2c43869eb03d",
+    "answer": "➡ 1.-Ver eventos completados\n➡ 2.-Ver eventos en curso\n➡ 3.-Ver eventos sin empezar\n➡ 4.-Ver todos los eventos",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [
+        {
+          "ref": "key_25e5449f-4d3e-450b-b686-5830c92f0207",
+          "keyword": [
+            "1.-",
+            "1.",
+            "1",
+            "listas"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "c374d4c5f46754641fad1633a58bdaa9"
+        },
+        {
+          "ref": "ans_ff1fe5d2-aff2-4142-b1c5-28479456c95e",
+          "keyword": "key_25e5449f-4d3e-450b-b686-5830c92f0207",
+          "answer": "__call_action__",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "23e89cbc94d8ee4dcc1a5cdbc046ecc7"
+        },
+        {
+          "ref": "key_73a88d19-845e-405a-98d4-565300a147f3",
+          "keyword": [
+            "2.-",
+            "2.",
+            "2",
+            "curso"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "8c9c73c97a6829115e3e1d4cf78eb07e"
+        },
+        {
+          "ref": "ans_86fafa17-3b4d-4613-847c-1fb9afc6fed1",
+          "keyword": "key_73a88d19-845e-405a-98d4-565300a147f3",
+          "answer": "__call_action__",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "29d95365d2d8cb3519e0fbb8ecea996c"
+        },
+        {
+          "ref": "key_7016ae52-bca3-416e-a3f6-12752d6df39c",
+          "keyword": [
+            "3.-",
+            "3.",
+            "3",
+            "empezar"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "d5caddc945725eb814f899da0ae573b3"
+        },
+        {
+          "ref": "ans_3dd3fc1c-afea-4102-a8de-3354dad861ab",
+          "keyword": "key_7016ae52-bca3-416e-a3f6-12752d6df39c",
+          "answer": "__call_action__",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "08726ea37bf1f6901ce6539ec7d7c0d4"
+        },
+        {
+          "ref": "key_9e44e416-35d5-438f-8139-8480f75048ac",
+          "keyword": [
+            "4.-",
+            "4.",
+            "4",
+            "todas"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "073d8a210e8c1d9a74a4ace86a1173c7"
+        },
+        {
+          "ref": "ans_09a0165d-0e0f-4170-90ef-57e9882fdb5b",
+          "keyword": "key_9e44e416-35d5-438f-8139-8480f75048ac",
+          "answer": "__call_action__",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "f4aa7d1e50f0c220692892dcf27d2a23"
+        }
+      ],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "3bd56c2fa765c7f5376da78a91a77ef7",
+    "from": "5212228658596"
+  },
+  {
+    "ref": "072ed98d-388e-4903-9ad6-785c0326111c",
+    "keyword": "3bd56c2fa765c7f5376da78a91a77ef7",
+    "answer": "1",
+    "options": {},
+    "from": "5212228658596",
+    "refSerialize": "290236b1d481a790a200ea6e94b2122a"
+  },
+  {
+    "ref": "ans_ff1fe5d2-aff2-4142-b1c5-28479456c95e",
+    "keyword": "key_25e5449f-4d3e-450b-b686-5830c92f0207",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "23e89cbc94d8ee4dcc1a5cdbc046ecc7",
+    "from": "5212228658596"
+  },
+  {
+    "ref": "5d458187-7b77-4afc-bc23-cf322c3bb94d",
+    "keyword": null,
+    "answer": "👍 Tareas completadas:\n\"Ganar el lobo Hackathon\"",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5212228658596",
+    "refSerialize": "5ec6190b3404d11eca4bba642d4270da"
+  },
+  {
+    "ref": "df40da6c-29de-46bc-96d7-b0f29bebbc4e",
+    "keyword": "23e89cbc94d8ee4dcc1a5cdbc046ecc7",
+    "answer": "Hola",
+    "options": {},
+    "from": "5212228658596",
+    "refSerialize": "c22e4066d61d81721def9b25d8a397e8"
+  },
+  {
+    "ref": "ans_c416bff5-612a-4df2-9917-4538cf02ac05",
+    "keyword": "key_8ba7d184-b9bd-40ef-8c3d-bb2e1eb0831d",
+    "answer": "🙌 Hola bienvenido al chatBot lobOs",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "66d1c8c44b18113e32fee39a1753c22c",
+    "from": "5212228658596"
+  },
+  {
+    "ref": "ans_b5cc858c-111e-40e5-a1d8-49e06330f622",
+    "keyword": "ans_c416bff5-612a-4df2-9917-4538cf02ac05",
+    "answer": "Te comparto lo que puedes hacer hoy: \n➡ 1.-Ver eventos\n➡ 2.-Agregar evento\n➡ 3.-Información de mis eventos\n➡ 4.-¿Quieres iniciar tus primeros pasos conmigo? 👉👈",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [
+        {
+          "ref": "key_6ad7ad03-001f-44c1-9320-2c43869eb03d",
+          "keyword": [
+            "1.-",
+            "1.",
+            "1",
+            "ver tareas",
+            "tareas"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "b76412a822bea99fe49d83d1ada25f52"
+        },
+        {
+          "ref": "ans_03cf7492-59a7-420c-9c58-64816e8fc9ba",
+          "keyword": "key_6ad7ad03-001f-44c1-9320-2c43869eb03d",
+          "answer": "➡ 1.-Ver eventos completados\n➡ 2.-Ver eventos en curso\n➡ 3.-Ver eventos sin empezar\n➡ 4.-Ver todos los eventos",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [
+              {
+                "ref": "key_25e5449f-4d3e-450b-b686-5830c92f0207",
+                "keyword": [
+                  "1.-",
+                  "1.",
+                  "1",
+                  "listas"
+                ],
+                "options": {
+                  "sensitive": false,
+                  "regex": false
+                },
+                "refSerialize": "c374d4c5f46754641fad1633a58bdaa9"
+              },
+              {
+                "ref": "ans_ff1fe5d2-aff2-4142-b1c5-28479456c95e",
+                "keyword": "key_25e5449f-4d3e-450b-b686-5830c92f0207",
+                "answer": "__call_action__",
+                "options": {
+                  "media": null,
+                  "buttons": [],
+                  "capture": false,
+                  "child": null,
+                  "delay": 0,
+                  "idle": null,
+                  "ref": null,
+                  "nested": [],
+                  "keyword": {},
+                  "callback": true
+                },
+                "refSerialize": "23e89cbc94d8ee4dcc1a5cdbc046ecc7"
+              },
+              {
+                "ref": "key_73a88d19-845e-405a-98d4-565300a147f3",
+                "keyword": [
+                  "2.-",
+                  "2.",
+                  "2",
+                  "curso"
+                ],
+                "options": {
+                  "sensitive": false,
+                  "regex": false
+                },
+                "refSerialize": "8c9c73c97a6829115e3e1d4cf78eb07e"
+              },
+              {
+                "ref": "ans_86fafa17-3b4d-4613-847c-1fb9afc6fed1",
+                "keyword": "key_73a88d19-845e-405a-98d4-565300a147f3",
+                "answer": "__call_action__",
+                "options": {
+                  "media": null,
+                  "buttons": [],
+                  "capture": false,
+                  "child": null,
+                  "delay": 0,
+                  "idle": null,
+                  "ref": null,
+                  "nested": [],
+                  "keyword": {},
+                  "callback": true
+                },
+                "refSerialize": "29d95365d2d8cb3519e0fbb8ecea996c"
+              },
+              {
+                "ref": "key_7016ae52-bca3-416e-a3f6-12752d6df39c",
+                "keyword": [
+                  "3.-",
+                  "3.",
+                  "3",
+                  "empezar"
+                ],
+                "options": {
+                  "sensitive": false,
+                  "regex": false
+                },
+                "refSerialize": "d5caddc945725eb814f899da0ae573b3"
+              },
+              {
+                "ref": "ans_3dd3fc1c-afea-4102-a8de-3354dad861ab",
+                "keyword": "key_7016ae52-bca3-416e-a3f6-12752d6df39c",
+                "answer": "__call_action__",
+                "options": {
+                  "media": null,
+                  "buttons": [],
+                  "capture": false,
+                  "child": null,
+                  "delay": 0,
+                  "idle": null,
+                  "ref": null,
+                  "nested": [],
+                  "keyword": {},
+                  "callback": true
+                },
+                "refSerialize": "08726ea37bf1f6901ce6539ec7d7c0d4"
+              },
+              {
+                "ref": "key_9e44e416-35d5-438f-8139-8480f75048ac",
+                "keyword": [
+                  "4.-",
+                  "4.",
+                  "4",
+                  "todas"
+                ],
+                "options": {
+                  "sensitive": false,
+                  "regex": false
+                },
+                "refSerialize": "073d8a210e8c1d9a74a4ace86a1173c7"
+              },
+              {
+                "ref": "ans_09a0165d-0e0f-4170-90ef-57e9882fdb5b",
+                "keyword": "key_9e44e416-35d5-438f-8139-8480f75048ac",
+                "answer": "__call_action__",
+                "options": {
+                  "media": null,
+                  "buttons": [],
+                  "capture": false,
+                  "child": null,
+                  "delay": 0,
+                  "idle": null,
+                  "ref": null,
+                  "nested": [],
+                  "keyword": {},
+                  "callback": true
+                },
+                "refSerialize": "f4aa7d1e50f0c220692892dcf27d2a23"
+              }
+            ],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "3bd56c2fa765c7f5376da78a91a77ef7"
+        },
+        {
+          "ref": "key_0fffc5bc-5a21-49da-8c1a-a7f38219bb2a",
+          "keyword": [
+            "2.-",
+            "2.",
+            "2",
+            "agregar",
+            "Agregar",
+            "tarea"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "f665ac2bb9308974a8104cddc4c57732"
+        },
+        {
+          "ref": "ans_9115e3fd-6349-4005-9348-93b8b32dbf93",
+          "keyword": "key_0fffc5bc-5a21-49da-8c1a-a7f38219bb2a",
+          "answer": "Hola!\nPara enviar el formulario necesito unos datos...\nEscriba el nombre del evento*",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": true,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "284c34dea1769cd22dd478e3878d1d8e"
+        },
+        {
+          "ref": "ans_f9f98382-b0ff-4a9f-b8d6-70c012f44eaa",
+          "keyword": "ans_9115e3fd-6349-4005-9348-93b8b32dbf93",
+          "answer": "También necesito una descripción del evento",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": true,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "81595f9f23ff2908a8640c8faaa71891"
+        },
+        {
+          "ref": "key_e7d49f56-42b3-434c-8252-2a64bead0aec",
+          "keyword": [
+            "3.-",
+            "3.",
+            "3",
+            "informacion",
+            "Inforacion"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "3d29967f7353c0dff8a03ecb560e68eb"
+        },
+        {
+          "ref": "ans_06647180-262a-4986-b013-b3fef5fc245c",
+          "keyword": "key_e7d49f56-42b3-434c-8252-2a64bead0aec",
+          "answer": "Hola y Bienvenido! como puedo ayudarte",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "2db03351f0399496a762fc6750fff09c"
+        },
+        {
+          "ref": "key_52751837-c947-4912-835a-136b315252ca",
+          "keyword": [
+            "4.-",
+            "4.",
+            "4",
+            "saber",
+            "Saber",
+            "mas"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "38a067cc085662fb402ead43960950b7"
+        },
+        {
+          "ref": "ans_5ee5296d-bbd3-4b67-afc2-f588835a11d0",
+          "keyword": "key_52751837-c947-4912-835a-136b315252ca",
+          "answer": "Gracias por interesarte en mi 😚. \n \n mas informacion sobre mi en https://www.notion.so/Imagina-un-mundo-donde-organizar-tus-ideas-y-proyectos-sea-tan-f-cil-bc80179c702e43abba8375d450216d8e?pvs=4",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "85c523611c3ceec730e65a36b430ea52"
+        }
+      ],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "22ffd096f7c67084393f619aeb8bb847",
+    "from": "5212228658596"
+  },
+  {
+    "ref": "d5416799-8e9a-4c3a-ae0b-3028b3163f7f",
+    "keyword": "22ffd096f7c67084393f619aeb8bb847",
+    "answer": "1",
+    "options": {},
+    "from": "5212228658596",
+    "refSerialize": "290236b1d481a790a200ea6e94b2122a"
+  },
+  {
+    "ref": "ans_03cf7492-59a7-420c-9c58-64816e8fc9ba",
+    "keyword": "key_6ad7ad03-001f-44c1-9320-2c43869eb03d",
+    "answer": "➡ 1.-Ver eventos completados\n➡ 2.-Ver eventos en curso\n➡ 3.-Ver eventos sin empezar\n➡ 4.-Ver todos los eventos",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [
+        {
+          "ref": "key_25e5449f-4d3e-450b-b686-5830c92f0207",
+          "keyword": [
+            "1.-",
+            "1.",
+            "1",
+            "listas"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "c374d4c5f46754641fad1633a58bdaa9"
+        },
+        {
+          "ref": "ans_ff1fe5d2-aff2-4142-b1c5-28479456c95e",
+          "keyword": "key_25e5449f-4d3e-450b-b686-5830c92f0207",
+          "answer": "__call_action__",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "23e89cbc94d8ee4dcc1a5cdbc046ecc7"
+        },
+        {
+          "ref": "key_73a88d19-845e-405a-98d4-565300a147f3",
+          "keyword": [
+            "2.-",
+            "2.",
+            "2",
+            "curso"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "8c9c73c97a6829115e3e1d4cf78eb07e"
+        },
+        {
+          "ref": "ans_86fafa17-3b4d-4613-847c-1fb9afc6fed1",
+          "keyword": "key_73a88d19-845e-405a-98d4-565300a147f3",
+          "answer": "__call_action__",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "29d95365d2d8cb3519e0fbb8ecea996c"
+        },
+        {
+          "ref": "key_7016ae52-bca3-416e-a3f6-12752d6df39c",
+          "keyword": [
+            "3.-",
+            "3.",
+            "3",
+            "empezar"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "d5caddc945725eb814f899da0ae573b3"
+        },
+        {
+          "ref": "ans_3dd3fc1c-afea-4102-a8de-3354dad861ab",
+          "keyword": "key_7016ae52-bca3-416e-a3f6-12752d6df39c",
+          "answer": "__call_action__",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "08726ea37bf1f6901ce6539ec7d7c0d4"
+        },
+        {
+          "ref": "key_9e44e416-35d5-438f-8139-8480f75048ac",
+          "keyword": [
+            "4.-",
+            "4.",
+            "4",
+            "todas"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "073d8a210e8c1d9a74a4ace86a1173c7"
+        },
+        {
+          "ref": "ans_09a0165d-0e0f-4170-90ef-57e9882fdb5b",
+          "keyword": "key_9e44e416-35d5-438f-8139-8480f75048ac",
+          "answer": "__call_action__",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "f4aa7d1e50f0c220692892dcf27d2a23"
+        }
+      ],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "3bd56c2fa765c7f5376da78a91a77ef7",
+    "from": "5212228658596"
+  },
+  {
+    "ref": "07bb48f7-21a6-4fa8-89dc-2be38949c24c",
+    "keyword": "3bd56c2fa765c7f5376da78a91a77ef7",
+    "answer": "3",
+    "options": {},
+    "from": "5212228658596",
+    "refSerialize": "7af65864494b12f0f7ef00589f4d3979"
+  },
+  {
+    "ref": "ans_3dd3fc1c-afea-4102-a8de-3354dad861ab",
+    "keyword": "key_7016ae52-bca3-416e-a3f6-12752d6df39c",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "08726ea37bf1f6901ce6539ec7d7c0d4",
+    "from": "5212228658596"
+  },
+  {
+    "ref": "133e9110-3fb7-40e2-b567-b4fcd277284c",
+    "keyword": null,
+    "answer": "🚫 Tareas sin empezar:\n\"Ir al lobo hackthon\"\n\n\"Hackathon\"\n\n\"Aun más cumple\"\n\n\"Navidad\"\n\n\"Finalizar el proyecto\"\n\n\"Un bautizo\"",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5212228658596",
+    "refSerialize": "a2ae3e3cf35cad2596c5ce3f07421170"
+  },
+  {
+    "ref": "fa8bdfd3-1bd7-4397-9091-5335aa5defdc",
+    "keyword": "08726ea37bf1f6901ce6539ec7d7c0d4",
+    "answer": "Hola",
+    "options": {},
+    "from": "5212228658596",
+    "refSerialize": "c22e4066d61d81721def9b25d8a397e8"
+  },
+  {
+    "ref": "ans_c416bff5-612a-4df2-9917-4538cf02ac05",
+    "keyword": "key_8ba7d184-b9bd-40ef-8c3d-bb2e1eb0831d",
+    "answer": "🙌 Hola bienvenido al chatBot lobOs",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "66d1c8c44b18113e32fee39a1753c22c",
+    "from": "5212228658596"
+  },
+  {
+    "ref": "ans_b5cc858c-111e-40e5-a1d8-49e06330f622",
+    "keyword": "ans_c416bff5-612a-4df2-9917-4538cf02ac05",
+    "answer": "Te comparto lo que puedes hacer hoy: \n➡ 1.-Ver eventos\n➡ 2.-Agregar evento\n➡ 3.-Información de mis eventos\n➡ 4.-¿Quieres iniciar tus primeros pasos conmigo? 👉👈",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [
+        {
+          "ref": "key_6ad7ad03-001f-44c1-9320-2c43869eb03d",
+          "keyword": [
+            "1.-",
+            "1.",
+            "1",
+            "ver tareas",
+            "tareas"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "b76412a822bea99fe49d83d1ada25f52"
+        },
+        {
+          "ref": "ans_03cf7492-59a7-420c-9c58-64816e8fc9ba",
+          "keyword": "key_6ad7ad03-001f-44c1-9320-2c43869eb03d",
+          "answer": "➡ 1.-Ver eventos completados\n➡ 2.-Ver eventos en curso\n➡ 3.-Ver eventos sin empezar\n➡ 4.-Ver todos los eventos",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [
+              {
+                "ref": "key_25e5449f-4d3e-450b-b686-5830c92f0207",
+                "keyword": [
+                  "1.-",
+                  "1.",
+                  "1",
+                  "listas"
+                ],
+                "options": {
+                  "sensitive": false,
+                  "regex": false
+                },
+                "refSerialize": "c374d4c5f46754641fad1633a58bdaa9"
+              },
+              {
+                "ref": "ans_ff1fe5d2-aff2-4142-b1c5-28479456c95e",
+                "keyword": "key_25e5449f-4d3e-450b-b686-5830c92f0207",
+                "answer": "__call_action__",
+                "options": {
+                  "media": null,
+                  "buttons": [],
+                  "capture": false,
+                  "child": null,
+                  "delay": 0,
+                  "idle": null,
+                  "ref": null,
+                  "nested": [],
+                  "keyword": {},
+                  "callback": true
+                },
+                "refSerialize": "23e89cbc94d8ee4dcc1a5cdbc046ecc7"
+              },
+              {
+                "ref": "key_73a88d19-845e-405a-98d4-565300a147f3",
+                "keyword": [
+                  "2.-",
+                  "2.",
+                  "2",
+                  "curso"
+                ],
+                "options": {
+                  "sensitive": false,
+                  "regex": false
+                },
+                "refSerialize": "8c9c73c97a6829115e3e1d4cf78eb07e"
+              },
+              {
+                "ref": "ans_86fafa17-3b4d-4613-847c-1fb9afc6fed1",
+                "keyword": "key_73a88d19-845e-405a-98d4-565300a147f3",
+                "answer": "__call_action__",
+                "options": {
+                  "media": null,
+                  "buttons": [],
+                  "capture": false,
+                  "child": null,
+                  "delay": 0,
+                  "idle": null,
+                  "ref": null,
+                  "nested": [],
+                  "keyword": {},
+                  "callback": true
+                },
+                "refSerialize": "29d95365d2d8cb3519e0fbb8ecea996c"
+              },
+              {
+                "ref": "key_7016ae52-bca3-416e-a3f6-12752d6df39c",
+                "keyword": [
+                  "3.-",
+                  "3.",
+                  "3",
+                  "empezar"
+                ],
+                "options": {
+                  "sensitive": false,
+                  "regex": false
+                },
+                "refSerialize": "d5caddc945725eb814f899da0ae573b3"
+              },
+              {
+                "ref": "ans_3dd3fc1c-afea-4102-a8de-3354dad861ab",
+                "keyword": "key_7016ae52-bca3-416e-a3f6-12752d6df39c",
+                "answer": "__call_action__",
+                "options": {
+                  "media": null,
+                  "buttons": [],
+                  "capture": false,
+                  "child": null,
+                  "delay": 0,
+                  "idle": null,
+                  "ref": null,
+                  "nested": [],
+                  "keyword": {},
+                  "callback": true
+                },
+                "refSerialize": "08726ea37bf1f6901ce6539ec7d7c0d4"
+              },
+              {
+                "ref": "key_9e44e416-35d5-438f-8139-8480f75048ac",
+                "keyword": [
+                  "4.-",
+                  "4.",
+                  "4",
+                  "todas"
+                ],
+                "options": {
+                  "sensitive": false,
+                  "regex": false
+                },
+                "refSerialize": "073d8a210e8c1d9a74a4ace86a1173c7"
+              },
+              {
+                "ref": "ans_09a0165d-0e0f-4170-90ef-57e9882fdb5b",
+                "keyword": "key_9e44e416-35d5-438f-8139-8480f75048ac",
+                "answer": "__call_action__",
+                "options": {
+                  "media": null,
+                  "buttons": [],
+                  "capture": false,
+                  "child": null,
+                  "delay": 0,
+                  "idle": null,
+                  "ref": null,
+                  "nested": [],
+                  "keyword": {},
+                  "callback": true
+                },
+                "refSerialize": "f4aa7d1e50f0c220692892dcf27d2a23"
+              }
+            ],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "3bd56c2fa765c7f5376da78a91a77ef7"
+        },
+        {
+          "ref": "key_0fffc5bc-5a21-49da-8c1a-a7f38219bb2a",
+          "keyword": [
+            "2.-",
+            "2.",
+            "2",
+            "agregar",
+            "Agregar",
+            "tarea"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "f665ac2bb9308974a8104cddc4c57732"
+        },
+        {
+          "ref": "ans_9115e3fd-6349-4005-9348-93b8b32dbf93",
+          "keyword": "key_0fffc5bc-5a21-49da-8c1a-a7f38219bb2a",
+          "answer": "Hola!\nPara enviar el formulario necesito unos datos...\nEscriba el nombre del evento*",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": true,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "284c34dea1769cd22dd478e3878d1d8e"
+        },
+        {
+          "ref": "ans_f9f98382-b0ff-4a9f-b8d6-70c012f44eaa",
+          "keyword": "ans_9115e3fd-6349-4005-9348-93b8b32dbf93",
+          "answer": "También necesito una descripción del evento",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": true,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "81595f9f23ff2908a8640c8faaa71891"
+        },
+        {
+          "ref": "key_e7d49f56-42b3-434c-8252-2a64bead0aec",
+          "keyword": [
+            "3.-",
+            "3.",
+            "3",
+            "informacion",
+            "Inforacion"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "3d29967f7353c0dff8a03ecb560e68eb"
+        },
+        {
+          "ref": "ans_06647180-262a-4986-b013-b3fef5fc245c",
+          "keyword": "key_e7d49f56-42b3-434c-8252-2a64bead0aec",
+          "answer": "Hola y Bienvenido! como puedo ayudarte",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "2db03351f0399496a762fc6750fff09c"
+        },
+        {
+          "ref": "key_52751837-c947-4912-835a-136b315252ca",
+          "keyword": [
+            "4.-",
+            "4.",
+            "4",
+            "saber",
+            "Saber",
+            "mas"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "38a067cc085662fb402ead43960950b7"
+        },
+        {
+          "ref": "ans_5ee5296d-bbd3-4b67-afc2-f588835a11d0",
+          "keyword": "key_52751837-c947-4912-835a-136b315252ca",
+          "answer": "Gracias por interesarte en mi 😚. \n \n mas informacion sobre mi en https://www.notion.so/Imagina-un-mundo-donde-organizar-tus-ideas-y-proyectos-sea-tan-f-cil-bc80179c702e43abba8375d450216d8e?pvs=4",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "85c523611c3ceec730e65a36b430ea52"
+        }
+      ],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "22ffd096f7c67084393f619aeb8bb847",
+    "from": "5212228658596"
+  },
+  {
+    "ref": "f6cd5b6f-fe17-4ef7-a212-92aa8186c0a1",
+    "keyword": "22ffd096f7c67084393f619aeb8bb847",
+    "answer": "1",
+    "options": {},
+    "from": "5212228658596",
+    "refSerialize": "290236b1d481a790a200ea6e94b2122a"
+  },
+  {
+    "ref": "ans_03cf7492-59a7-420c-9c58-64816e8fc9ba",
+    "keyword": "key_6ad7ad03-001f-44c1-9320-2c43869eb03d",
+    "answer": "➡ 1.-Ver eventos completados\n➡ 2.-Ver eventos en curso\n➡ 3.-Ver eventos sin empezar\n➡ 4.-Ver todos los eventos",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [
+        {
+          "ref": "key_25e5449f-4d3e-450b-b686-5830c92f0207",
+          "keyword": [
+            "1.-",
+            "1.",
+            "1",
+            "listas"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "c374d4c5f46754641fad1633a58bdaa9"
+        },
+        {
+          "ref": "ans_ff1fe5d2-aff2-4142-b1c5-28479456c95e",
+          "keyword": "key_25e5449f-4d3e-450b-b686-5830c92f0207",
+          "answer": "__call_action__",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "23e89cbc94d8ee4dcc1a5cdbc046ecc7"
+        },
+        {
+          "ref": "key_73a88d19-845e-405a-98d4-565300a147f3",
+          "keyword": [
+            "2.-",
+            "2.",
+            "2",
+            "curso"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "8c9c73c97a6829115e3e1d4cf78eb07e"
+        },
+        {
+          "ref": "ans_86fafa17-3b4d-4613-847c-1fb9afc6fed1",
+          "keyword": "key_73a88d19-845e-405a-98d4-565300a147f3",
+          "answer": "__call_action__",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "29d95365d2d8cb3519e0fbb8ecea996c"
+        },
+        {
+          "ref": "key_7016ae52-bca3-416e-a3f6-12752d6df39c",
+          "keyword": [
+            "3.-",
+            "3.",
+            "3",
+            "empezar"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "d5caddc945725eb814f899da0ae573b3"
+        },
+        {
+          "ref": "ans_3dd3fc1c-afea-4102-a8de-3354dad861ab",
+          "keyword": "key_7016ae52-bca3-416e-a3f6-12752d6df39c",
+          "answer": "__call_action__",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "08726ea37bf1f6901ce6539ec7d7c0d4"
+        },
+        {
+          "ref": "key_9e44e416-35d5-438f-8139-8480f75048ac",
+          "keyword": [
+            "4.-",
+            "4.",
+            "4",
+            "todas"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "073d8a210e8c1d9a74a4ace86a1173c7"
+        },
+        {
+          "ref": "ans_09a0165d-0e0f-4170-90ef-57e9882fdb5b",
+          "keyword": "key_9e44e416-35d5-438f-8139-8480f75048ac",
+          "answer": "__call_action__",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "f4aa7d1e50f0c220692892dcf27d2a23"
+        }
+      ],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "3bd56c2fa765c7f5376da78a91a77ef7",
+    "from": "5212228658596"
+  },
+  {
+    "ref": "ca9847cb-4cb5-4478-a190-a2808cc8818a",
+    "keyword": "3bd56c2fa765c7f5376da78a91a77ef7",
+    "answer": "4",
+    "options": {},
+    "from": "5212228658596",
+    "refSerialize": "e8139b7fa2fbc1b48f247924f8ad1961"
+  },
+  {
+    "ref": "ans_09a0165d-0e0f-4170-90ef-57e9882fdb5b",
+    "keyword": "key_9e44e416-35d5-438f-8139-8480f75048ac",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "f4aa7d1e50f0c220692892dcf27d2a23",
+    "from": "5212228658596"
+  },
+  {
+    "ref": "b00b9267-0a2a-4407-8879-4bbc87f19390",
+    "keyword": null,
+    "answer": "📋 Todas las tareas:\n\"Ir al lobo hackthon\"\n\n\"Hackathon\"\n\n\"Aun más cumple\"\n\n\"Otro cumpleaños\"\n\n\"Cumpleaños\"\n\n\"Navidad\"\n\n\"Evento prueba\"\n\n\"Finalizar el proyecto\"\n\n\"Visitar Italia\"\n\n\"Buscar un lugar nuevo para vivir\"\n\n\"Ganar el lobo Hackathon\"\n\n\"Un bautizo\"",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5212228658596",
+    "refSerialize": "56109a022d23e339a27eacc0bc9feec0"
+  }
+]
