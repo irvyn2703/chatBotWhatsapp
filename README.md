@@ -4,13 +4,14 @@ RECO es una solución diseñada para simplificar la vida de las personas, permit
 Características principales
 Rapidez y sencillez: Con una interfaz intuitiva y herramientas optimizadas, tomar notas nunca ha sido tan fácil.
 Organización eficiente: Clasifica tus notas por categorías, etiquetas o cualquier otro criterio que prefieras.
-Acceso en cualquier momento y lugar: Disponible en múltiples dispositivos para que puedas acceder a tus notas cuando las necesites.
-Seguridad y privacidad: Tus datos están protegidos y solo accesibles para ti.
 
 Con la potente API de Notion como base, RECO permite la creación de eventos con múltiples etiquetas. Esto proporciona una organización avanzada que supera la limitación de contar con los dedos. Con RECO, puedes etiquetar tus eventos de manera flexible y eficiente, lo que te permite categorizarlos y organizarlos de acuerdo a tus necesidades. Simplifica tu vida y lleva tu organización al siguiente nivel con RECO.
 
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
 <h2>Proceso de Instalación</h2>
 Este repositorio contiene el chatbot de nuestra aplicación, el cual se conectará a un backend que se encargará de hacer las peticiones a Notion. Para su correcto funcionamiento, es necesario tener el backend correcto configurado previamente. (<a href="https://github.com/JesusPichon/API-Notion">repositorio del backend 👇👇👇👇👇👇👇👇👇👇👇👇👇👇</a>)
+
 
 <h3>Clonar el Repositorio</h3>
 Para comenzar, clona este repositorio en tu máquina local. Puedes hacerlo ejecutando el siguiente comando en tu terminal:
@@ -24,6 +25,9 @@ Una vez que hayas clonado el repositorio, navega hasta la carpeta del proyecto y
 <p>
   Copy code<code>npm install</code>
 </p>
+  
+ 
+  
 <h3>Ejecutar el Bot</h3>
 Después de instalar las dependencias, puedes ejecutar el bot utilizando el siguiente comando:
 <p>
@@ -32,6 +36,8 @@ Después de instalar las dependencias, puedes ejecutar el bot utilizando el sigu
 </p>
 
 ¡Listo! Ahora el bot estará funcionando y listo para conectarse al backend correspondiente y realizar las interacciones necesarias con Notion.
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 <h2> Tecnologias </h2>
 
@@ -54,3 +60,5 @@ Después de instalar las dependencias, puedes ejecutar el bot utilizando el sigu
 **Notion es una herramienta versátil que te permite organizar tus ideas, proyectos y tareas de manera eficiente. Con Notion, puedes crear bases de datos, listas de tareas, tablas y mucho más, todo en un solo lugar. Además, su potente API te permite integrar tus datos con otras herramientas y automatizar flujos de trabajo complejos. Descubre todo lo que Notion puede hacer por ti y lleva tu productividad al siguiente nivel.(https://developers.notion.com/).
   
 </p>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
